@@ -13,7 +13,7 @@ package card;
 public class CardTester {
     public static void main(String[] args)
     {
-        Card c1=new Card("Clubs",6);
+        Card c1=new Card("Clubs",5);
         c1.setSuit("Hearts");
         System.out.println ("New suit is "+ c1.getSuit());
         
